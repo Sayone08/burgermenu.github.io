@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 45rem;
+    height: 36rem;
 }
 
 .banner{
@@ -22,10 +22,10 @@ body{
 .side-menu{
     display: inline;
     color: white;
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 nav img{
-    width: 12rem;
+    width: 5rem;
 } 
 
 nav{
@@ -50,11 +50,11 @@ nav{
     src: url(LuckiestGuy.ttf);
 }
 h3{
-    font-size: 2.3rem;
-    letter-spacing: 20px;
+    font-size: 2.1rem;
+    letter-spacing: 15px;
 }
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: 3px;
 }
 h2{
@@ -79,7 +79,7 @@ h1,h3,h2{
 .one-left{
     background-image: url("images/feature_bg.jpg");
     width: 980px;
-    height: 440px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: 980px 440px;
     display: flex;
@@ -100,7 +100,7 @@ h1,h3,h2{
 }
 .one-right{
     width: 412px;
-    height: 440px;
+    height: 400px;
     background-image: url("images/sign_bg.jpg");
     background-repeat: no-repeat;
     background-size: 412px 440px;
@@ -137,7 +137,7 @@ h1,h3,h2{
 }
 .two-left{
     width: 720px;
-    height: 450px;
+    height: 400px;
     background-image: url("images/classic_bg.jpg");
     background-repeat: no-repeat;
     background-size: 720px 450px;
@@ -177,7 +177,7 @@ h1,h3,h2{
 }
 .two-right{
     width: 720px;
-    height: 450px;
+    height: 400px;
     background-image: url("images/small_slider_bg.jpg");
     background-repeat: no-repeat;
     background-size: 720px 450px;
@@ -206,7 +206,7 @@ h1,h3,h2{
     margin: 40px;
 }
 .three{
-    height: 750px;
+    height: 60px;
     background-image: url("images/large_slider_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,14 +229,14 @@ h1,h3,h2{
     text-align: left;
 }
 .t-3{
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     letter-spacing: 1.5px;
     text-align: left;
 }
 .t-4{
     font-family: sans-serif;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 1.5px;
 }
 .t-5{
@@ -389,7 +389,7 @@ form{
         letter-spacing: 6px;
     }
     h1{
-        font-size: 2.5rem;
+        font-size: 2.0rem;
         letter-spacing: 2px;
     }
 
@@ -433,7 +433,7 @@ form{
     .one-left{
         width: 100%;
         background-size: 100% 100%;
-        height: 21rem;
+        height: 20rem;
         flex-direction: column;
         align-items: flex-end;
         justify-content: center;
@@ -457,7 +457,7 @@ form{
         width: 100px;
     }
     .last{
-        height: 50rem;
+        height: 60rem;
         width: 100%;
         flex-direction: column;
         padding: 1rem 0rem 1rem 0rem;
@@ -511,13 +511,13 @@ form{
         background-size: 100% 100%;
     }
     .two-left-1{
-        height: 130px;
+        height: 140px;
         justify-content: space-around;
     }
 
     .two-right{
         width: 100%;
-        height: 20rem;
+        height: 18rem;
         background-size: 100% 100%;
         padding: 5px 0px;
         justify-content: space-between;
@@ -609,12 +609,13 @@ form{
     .fi-2{
         font-size: 0.7rem;
     }
+    
     .bold{
         font-size: 1.2rem;
     }
     
     .light{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .copyright{
         font-size: 1.1rem;
@@ -644,7 +645,7 @@ form{
         letter-spacing: 10px;
     }
     h1{
-        font-size: 3rem;
+        font-size: 2.8rem;
         letter-spacing: 4px;
     }
 
@@ -663,19 +664,19 @@ form{
         padding: 1rem 2rem 1rem 1rem;
     }
     .banner{
-        gap: 11rem;
+        gap: 10rem;
         padding-left: 90px;
         padding-right: 50px;
     } 
     .outer-banner{
-        width: 52%; 
+        width: 62%; 
     }
     .para{
         font-size: 0.8rem;
     }
 
     .outer-banner img{
-        width: 85px;
+        width: 65px;
     } 
 
     .middle{
@@ -1098,17 +1099,17 @@ form{
     }
 
     .side-menu{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     nav img{
-        width: 12rem;
+        width: 10rem;
     } 
     
     nav{
-        padding: 1rem 6rem 1rem 3rem;
+        padding: 1rem 9rem 1rem 6rem;
     }
     .banner{
-        gap: 18rem;
+        gap: 12rem;
         padding-left: 100px;
         padding-right: 70px;
     } 
@@ -1147,10 +1148,10 @@ form{
     }
 
     .t-3{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     .t-4{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .one-right{
         width: 500px;
@@ -1171,7 +1172,7 @@ form{
     }
 
     .two-left-1{
-        height: 180px;
+        height: 140px;
     }
 
     .two-right{
@@ -1188,7 +1189,7 @@ form{
     }
 
     .last{
-        height: 40vh;
+        height: 48vh;
         justify-content: space-around;
         align-items: flex-start;
         margin-top: 1rem;
@@ -1228,6 +1229,7 @@ form{
     .front{
         width: 100%;
         background-size: 100% 100%;
+        height: 34rem;
     }
     .para{
         font-size: 1.1rem;
@@ -1237,7 +1239,7 @@ form{
         width: 110px;
     } 
     .middle{
-        padding: 0 3rem;
+        padding: 0 6rem;
     }
 
     .one{
@@ -1257,6 +1259,7 @@ form{
         width: 300px;
         height: 250px;
         padding-right:8px;
+        background-color: transparent;
     }
 }
 
