@@ -25,7 +25,7 @@ body{
     font-size: 2rem;
 }
 nav img{
-    width: 5rem;
+    width: 15rem;
 } 
 
 nav{
@@ -103,7 +103,7 @@ h1,h3,h2{
     height: 400px;
     background-image: url("images/sign_bg.jpg");
     background-repeat: no-repeat;
-    background-size: 412px 440px;
+    background-size: 412px 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -114,6 +114,7 @@ h1,h3,h2{
     background-color: #d14149;
     width: 180px;
     height: 150px;
+    /* clip-path: polygon(20% 0%, 0 0, 0 49%, 0 100%, 0 100%, 49% 81%, 100% 100%, 100% 100%, 100% 49%, 100% 0, 74% 0, 50% 0); */
 }
 .o-2 h4{
     font-size: 1.8rem;
@@ -148,10 +149,11 @@ h1,h3,h2{
 .l-1{
     background-color: #dc9e15;
     color: white;
-    font-size: 1.5rem;
-    padding: 8px 20px;
+    font-size: 1.3rem;
+    padding: 8px 15px 8px 15px;
     margin-top: 1rem;
     border: 1px solid #dc9e15;
+    clip-path: polygon(100% 0%, 88% 51%, 100% 100%, 0 100%, 0% 50%, 1% 1%);
 }
 .two-left-1{
     background: rgba(147, 79, 50, 0.93);
@@ -237,7 +239,7 @@ h1,h3,h2{
     font-family: sans-serif;
     color: white;
     font-size: 1rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
 }
 .t-5{
     background-color: #d14149;
@@ -245,6 +247,7 @@ h1,h3,h2{
     font-size: 1rem;
     padding: 8px 20px;
     border: 1px solid #d14149;
+    clip-path: polygon(100% 0%, 94% 50%, 100% 100%, 0 100%, 6% 50%, 0 0);
 }
 .four{
     display: flex;
@@ -377,7 +380,273 @@ form{
     padding-right: 40px;
 }
 
+@media(max-width:300px){
+    .front{
+        width: 100%;
+        background-size: 100% 100%;
+        height: 21rem;
+    }
+    h3{
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+    h1{
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
 
+    .side-menu{
+        font-size: 1.1rem;
+    }
+    nav img{
+        width: 5rem;
+    } 
+    
+    nav{
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem 1rem 1rem;
+    }
+    .banner{
+        gap: 7rem;
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .outer-banner{
+        width: 70%; 
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+    .para{
+        font-size: 0.5rem;
+    }
+
+    .outer-banner img{
+        width: 50px;
+    } 
+
+    .middle{
+        padding: 0 0.4rem;
+    }
+    .one{
+        padding-top: 4rem;
+        flex-wrap: wrap;
+    }
+    .one-left{
+        width: 100%;
+        background-size: 100% 100%;
+        height: 19rem;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .o-1{
+        width: 150px ;
+        height: 180px;
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+
+    .t-3{
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+    .t-4{
+        font-size: 0.5rem;
+    }
+
+    .o-1 img{
+        width: 100px;
+    }
+    .last{
+        height: 50rem;
+        width: 100%;
+        flex-direction: column;
+        padding: 1rem 0rem 1rem 0rem;
+        line-height: 2rem;
+    }
+
+    .left{
+        margin-top: 2rem;
+    }
+    .between{
+        margin-top: 2rem;
+    }
+    .right{
+        margin-top: 0.8rem;
+    }
+
+    .one-right{
+        width: 100%;
+        height: 20rem;
+        background-size: 100% 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+    .o-2{
+        background-color: #d14149;
+        width: 130px;
+        height: 110px;
+    }
+
+    .o-2 h4{
+        font-size: 1rem;
+        margin: 6px;
+    }
+    .o-2 img{
+        display: block;
+        margin: auto;
+    }
+    .o-2 p{
+        font-size: 0.8rem;
+        margin-top: 110px;
+    }
+    .two{
+        flex-wrap: wrap;
+        padding-top: 1.8rem;
+    }
+    .two-left{
+        width: 100%;
+        height: 23rem;
+        background-size: 100% 100%;
+    }
+    .two-left-1{
+        height: 150px;
+        justify-content: space-around;
+    }
+
+    .two-right{
+        width: 100%;
+        height: 18rem;
+        background-size: 100% 100%;
+        padding: 5px 0px;
+        justify-content: space-between;
+    }
+    .r-1{
+        border-color: rgba(255, 255, 255, 0.5);
+        margin: 1px 60px 2px 30px;
+    }
+    .r-2{
+        font-size: 0.9rem;
+        letter-spacing: 1.5px;
+        padding: 3px 30px;
+    }
+    .r-3{
+        font-size: 1.6rem;
+        letter-spacing: 1.5px;
+        text-align: left;
+        padding: 7px 30px;
+    }
+    .l-1{
+        font-size: 1.1rem;
+    }
+    .l-2{
+        font-size: 1.2rem;
+        letter-spacing: 1.1px;
+        padding: 12px 18px;
+    }
+    .l-3{
+        font-size: 0.7rem;
+        letter-spacing: 0.8px;
+        margin: 0;
+        padding: 0px 20px;
+    }
+    .t-5{
+        font-size: 0.8rem;
+        padding: 2px 10px;
+    }
+
+    .three{
+        height: 23rem;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .divthree{
+        width: 250px;
+        margin: 15px 10px 15px 20px;
+        padding: 0px 6px;
+    }
+    .t h2{
+        font-size: 1.7rem;
+    }
+    .t h3{
+        font-size: 1.5rem;
+    }
+    .t p{
+        font-size: 0.9rem;
+    }
+
+    .four{
+        flex-wrap: wrap;
+    }
+    .f-1{
+        width: 100%;
+        height: 14rem;
+        background-size: 100% 100%;
+    }
+    .f-2{
+        width: 100%;
+        height: 14rem;
+        background-size: 100% 100%;
+    }
+    .f-3{
+        width: 100%;
+        height: 14rem;
+        background-size: 100% 100%;
+    }
+    .pos{
+        font-size: 1.5rem;
+    }
+    .four h2{
+        font-size: 1.8rem;
+    }
+    .five{
+        width: 100%;
+        height: 12rem;
+        background-size: 100% 100%;
+    }
+    .fi-1{
+        font-size: 1.3rem;
+    }
+    .fi-2{
+        font-size: 0.6rem;
+    }
+    .footer-img{
+        width: 100px;
+    }
+    .bold{
+        font-size: 1.2rem;
+    }
+    
+    .light{
+        font-size: 0.9rem;
+    }
+    .copyright{
+        font-size: 1.1rem;
+    }
+
+    .right{
+        padding-left: 1rem;
+    }
+    .between{
+        padding-left: 1rem;
+    }
+    .left{
+        padding-left: 1rem;
+    }
+    input{
+        height: 1.7rem;
+        width: 12rem;
+        font-size: 1rem;
+        border: 2px solid rgb(110, 110, 110) ;
+    }
+
+
+}
 @media(max-width:500px) and (min-width:300px){
     .front{
         width: 100%;
@@ -543,7 +812,7 @@ form{
     .l-2{
         font-size: 1.4rem;
         letter-spacing: 1.1px;
-        padding: 12px 16px;
+        padding: 12px 13px;
     }
     .l-3{
         font-size: 0.8rem;
@@ -1281,13 +1550,34 @@ form{
 @media(max-width:1950px) and (min-width:1800px)
 {
     .middle{
-        padding: 0 15rem;
+        padding: 0 15rem 0 10rem;
     }
-
+    .front{
+        height: 47rem;
+    }
+    .heading h3{
+        font-size: 3.6rem;
+    }
+    .heading h1{
+        font-size: 4.6rem;
+    }
+    .side-menu{
+        font-size: 4rem;
+    }
+    .one-left{
+        height: 440px;
+    }
     .one-right{
-        width: 380px;
+        width: 430px;
+        height: 440px;
+        background-size: 457px 440px;
     }
-
+    .two-left{
+        height: 440px;
+    }
+    .two-right{
+        height: 440px;
+    }
     .two{
         gap: 2.8rem;
     }
@@ -1299,7 +1589,10 @@ form{
     .two-right p{
         font-size: 1.2rem;
     }
+    .three{
+        height: 700px;
+    }
     .last{
-        height: 50vh;
+        height: 35vh;
     }
 }
