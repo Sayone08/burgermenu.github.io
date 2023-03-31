@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgb(226, 217, 203);
     
 }
 
@@ -110,11 +111,15 @@ h1,h3,h2{
     align-items: flex-start;
     padding-left: 30px;
 }
+.one-right p{
+    width: 160px;
+    padding: 60px 0px 80px 0px;
+}
 .o-2{
     background-color: #d14149;
     width: 180px;
     height: 150px;
-    /* clip-path: polygon(20% 0%, 0 0, 0 49%, 0 100%, 0 100%, 49% 81%, 100% 100%, 100% 100%, 100% 49%, 100% 0, 74% 0, 50% 0); */
+    clip-path: polygon(20% 0%, 0 0, 0 49%, 0 100%, 0 100%, 49% 81%, 100% 100%, 100% 100%, 100% 49%, 100% 0, 74% 0, 50% 0);
 }
 .o-2 h4{
     font-size: 1.8rem;
@@ -126,9 +131,6 @@ h1,h3,h2{
     display: block;
     margin: auto;
     width: 54px;
-}
-.o-2 p{
-    margin-top: 90px;
 }
 .two{
     display: flex;
@@ -380,7 +382,7 @@ form{
     padding-right: 40px;
 }
 
-@media(max-width:300px){
+@media(max-width:360px){
     .front{
         width: 100%;
         background-size: 100% 100%;
@@ -501,9 +503,10 @@ form{
         display: block;
         margin: auto;
     }
-    .o-2 p{
+    .one-right p{
+        width: 150px;
         font-size: 0.8rem;
-        margin-top: 110px;
+        padding: 0px 0px 80px 0px;
     }
     .two{
         flex-wrap: wrap;
@@ -542,15 +545,15 @@ form{
         padding: 7px 30px;
     }
     .l-1{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .l-2{
-        font-size: 1.2rem;
+        font-size: 1rem;
         letter-spacing: 1.1px;
         padding: 12px 18px;
     }
     .l-3{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         letter-spacing: 0.8px;
         margin: 0;
         padding: 0px 20px;
@@ -647,11 +650,11 @@ form{
 
 
 }
-@media(max-width:500px) and (min-width:300px){
+@media(max-width:500px) and (min-width:360px){
     .front{
         width: 100%;
         background-size: 100% 100%;
-        height: 25rem;
+        height: 26rem;
     }
     h3{
         font-size: 1.2rem;
@@ -708,9 +711,10 @@ form{
         justify-content: center;
     }
     .o-1{
-        width: 150px ;
+        width: 140px ;
         height: 180px;
         background-color: transparent;
+        padding-right: 20px;
     }
 
     .t-3{
@@ -719,7 +723,7 @@ form{
         text-align: left;
     }
     .t-4{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 
     .o-1 img{
@@ -766,9 +770,10 @@ form{
         display: block;
         margin: auto;
     }
-    .o-2 p{
-        font-size: 0.8rem;
-        margin-top: 110px;
+    .one-right p{
+        width: 120px;
+        font-size: 0.7rem;
+        padding: 0px 0px 60px 0px;
     }
     .two{
         flex-wrap: wrap;
@@ -810,12 +815,12 @@ form{
         font-size: 1.1rem;
     }
     .l-2{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         letter-spacing: 1.1px;
-        padding: 12px 13px;
+        padding: 11px 13px;
     }
     .l-3{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         letter-spacing: 1px;
         margin: 0;
         padding: 1px 20px;
@@ -1441,7 +1446,7 @@ form{
     }
 
     .two-left-1{
-        height: 140px;
+        height: 155px;
     }
 
     .two-right{
@@ -1458,11 +1463,11 @@ form{
     }
 
     .last{
-        height: 48vh;
+        height: 40vh;
         justify-content: space-around;
         align-items: flex-start;
         margin-top: 1rem;
-        gap: 4rem;
+        gap: 5rem;
         line-height: 1.7rem;
     }
     
@@ -1532,23 +1537,7 @@ form{
     }
 }
 
-@media(max-width:1650px) and (min-width:1400px){
-    .middle{
-        padding: 0 4rem;
-    }
-    h3{
-        font-size: 2.2rem;
-        letter-spacing: 20px;
-    }
-    h1{
-        font-size: 4.8rem;
-        letter-spacing: 3px;
-    }
-
-}
-
-@media(max-width:1950px) and (min-width:1800px)
-{
+@media(max-width:1800px) and (min-width:1400px){
     .middle{
         padding: 0 15rem 0 10rem;
     }
@@ -1562,7 +1551,7 @@ form{
         font-size: 4.6rem;
     }
     .side-menu{
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
     .one-left{
         height: 440px;
@@ -1586,6 +1575,58 @@ form{
         font-size: 2.6rem;
     }
 
+    .two-right p{
+        font-size: 1.2rem;
+    }
+    .three{
+        height: 700px;
+    }
+    .last{
+        height: 40vh;
+    }
+}
+
+@media(max-width:1950px) and (min-width:1800px)
+{
+    .middle{
+        padding: 0 15rem 0 10rem;
+    }
+    .front{
+        height: 47rem;
+    }
+    .heading h3{
+        font-size: 3.6rem;
+    }
+    .heading h1{
+        font-size: 4.6rem;
+    }
+    .side-menu{
+        font-size: 2.8rem;
+    }
+    .one-left{
+        height: 440px;
+    }
+    .one-right{
+        width: 430px;
+        height: 440px;
+        background-size: 457px 440px;
+    }
+    .two-left{
+        height: 440px;
+    }
+    .two-right{
+        height: 440px;
+    }
+    .two{
+        gap: 2.8rem;
+    }
+
+    .two-right h3{
+        font-size: 2.6rem;
+    }
+    .t-4{
+        font-size: 1.1rem;
+    }
     .two-right p{
         font-size: 1.2rem;
     }
